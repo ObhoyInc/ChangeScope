@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<!-- An app by Obhoy Inc. (www.obhoy.com) -->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../bootstrap.min.css">
+	<script src="../bootstrap.min.js"></script>
+	<script>
+	const randomColor = () => '#' + Math.random().toString(16).substr(-6)
+	const changeColor = () => document.body.style.backgroundColor = randomColor()
+
+	setInterval(() => {
+	  changeColor()
+	}, 1500)
+
+	// start color animation as soon as document is ready
+	document.onreadystatechange = () => {
+	  if (document.readyState === 'complete') {
+		changeColor()
+	  }
+	}
+</script>
+	<style>
+	.white p{
+		font-color:#fff !important;
+	}
+	
+	.mainpage{
+		margin-top:55px;
+	}
+	.appletron h2{
+		background-color:#222C28;
+		color:white;
+		padding-left:25px;
+		padding-top:8px;
+		padding-bottom:8px;
+		border-radius:5px;
+	}
+	.appletron p{
+		background-color:#222C28;
+		color:white;
+		padding-left:22px;
+		padding-top:7px;
+		padding-bottom:7px;
+		margin-top:10px;
+		margin-bottom:10px;
+		border-radius:5px;
+	}
+	.btn-infoc{
+		padding-left:22px;
+		padding-top:7px;
+		padding-bottom:7px;
+		margin-top:20px;
+		margin-bottom:20px;
+		border-radius:5px;
+		background-color:#5bc0de;
+		border-color:#46b8da;
+		color:#fff;
+	}
+	.img-responsive{
+		border-radius:20px !important;
+		padding-top:12px;
+	}
+	.navbar{
+		background-color:#222C28 !important;
+	}
+	.btn-info{
+		border-color:#222C28 !important;
+		border:3px;
+	}
+	</style>
+</head>
+<body style="transition: background 1.5s;" class="container-fluid">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-brand white">
+			<a href="../index.html"><button class="btn btn-sm btn-info">Home</button></a>
+		</div>
+	</nav>
+	<section class="mainpage appletron">
+		<img src="../logo.png" class="img-responsive" width="100%" alt="Change Scope Logo">
+		<H2>App Preferences:</H2>
+		<p>App version: 1.0 BETA</p>
+		<p>Developed by: Obhoy Inc. | obhoy.com </p>
+		<p>Theme: Obhoy AI Dark</p>
+		<p>Developer: Kazi Moyeen Anisul</p>
+		<p>Report: support@obhoy.com</p>
+		<a href="http://store.obhoy.com/changescope/updates/vonepointzerofull.html"><div class="btn-infoc">Check for updates [ V: 1.0f ] </div></a>
+	</section>
+	<footer></footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*
+.navbar-inverse{
+	background-color: #2A2826 !important;
+}
+.button-mar img{
+	margin-top:6px;
+	margin-right:5px;
+}
+body{
+	background-color:#2A2826 !important;
+}
+.text-header h1{
+	font-size:50px !important;
+}
+.p-text{
+	font-size:25px !important;
+}
+.top-hed-mar{
+	padding-bottom:30px;
+}
+.gif{
+	margin-top:59px;
+}

@@ -1,0 +1,23 @@
+*
+body{
+	background-color:black !important;
+}
+.text-header h1{
+	font-size:45px !important;
+}
+.p-text{
+	font-size:20px !important;
+}
+.top-hed-mar{
+	padding-bottom:30px;
+}
+.margin{
+	margin-top:10px !important;
+}
+
+.navbar{
+	background-color:black !important;
+}
+img{
+	margin-bottom:4px;
+}

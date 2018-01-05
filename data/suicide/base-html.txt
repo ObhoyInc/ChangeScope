@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<!-- An app by Obhoy Inc. (www.obhoy.com) -->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="../../bootstrap.min.css">
+	<script src="../../bootstrap.min.js"></script>
+	<style>
+	.white p{
+		font-color:#fff !important;
+	}
+	.black{
+		background-color:#000 !important;
+	}
+	.mainpage{
+		margin-top:55px;
+	}
+	body{
+		background-color:#222;
+	}
+	</style>
+</head>
+<body class="container-fluid">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-brand white">
+			<a href="#"><button class="btn btn-sm btn-primary">Previous</button></a>   <a href="../../index.html"><button class="btn btn-sm btn-info">Home</button></a>
+		</div>
+	</nav>
+	<section class="mainpage jumbotron" align="center">
+		<h2>
+		
+		</h2>
+		<p>
+		
+		</p>
+		<p><a href="#"><button class="btn btn-lg btn-success">YES</button></a>   <a href="#"><button class="btn btn-lg btn-danger">NO</button></a></p>
+	</section>
+	<footer></footer>
+</body>
+</html>
